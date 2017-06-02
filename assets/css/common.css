@@ -1,0 +1,20 @@
+.uppercase{
+	text-transform: uppercase;
+}
+
+.pink{
+	color: #FF00BF;
+}
+
+.dark-blue{
+	color: #333447;
+}
+.blue{
+	color: #352384;
+}
+.gray{
+	color: #728099;
+}
+.purple{
+	background: linear-gradient(#76278F, #2B1E66);
+}
