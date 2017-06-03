@@ -1,6 +1,69 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-weight: 300;
 	margin: 0;
-	display: block;
+	padding: 0;
+}
+
+/* Menu Section */
+
+
+#navigation{
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#navigation.flex-container{
+	padding: 30px;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* logo */
+.logo{
+	width: 60px;
+	height: 45px;
+	top: 20px;
+	z-index: 1;
+	margin-right: auto;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+/* menu */
+.button{
+	border: 1px solid whitesmoke;
+	border-radius: 10px;
+	padding: 10px 16px;
+	margin-left: 16px;
+	margin-right: 150px;
+}
+
+/* background video */
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/**/
+#section.flex-container{
+	padding: 30px;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
 }
