@@ -1,15 +1,14 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 }
 
 /* Menu Section */
-
-
 #navigation{
 	background-color: transparent;
+	font-size: 18px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -32,10 +31,9 @@ body{
 	top: 20px;
 	z-index: 1;
 	margin-right: auto;
-	margin-left: 20px;
+	margin-left: 50px;
 	cursor: pointer;
 }
-
 
 /* menu */
 .button{
@@ -49,7 +47,7 @@ body{
 /* background video */
 video {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -59,11 +57,60 @@ video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-/**/
-#section.flex-container{
-	padding: 30px;
-	flex-direction: row;
+/* form */
+#form.flex-container{
 	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.driver-form{
+	background-color: white;
+	width: 30%;
+	padding: 40px 70px;
+	margin-top: 115px;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.text-form h1{
+	font-size: 40px;
+	margin-right: 60px;
+	margin-bottom: 10px;
+}
+.text-form p{
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.data-form label{
+	color: #bfc7d9;
+	position: absolute;
+	top: 330px;
+}
+
+.data-form .input-style{
+	border: none;
+	border-bottom: 1px solid #352384;
+	width: 100%;
+}
+
+#sign.flex-container{
+	justify-content: flex-start;
 	align-items: center;
-	position: relative;
+	margin-top: 20px;
+}
+
+#sign.flex-container a{
+	text-decoration: underline;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#drive{
+	background-color: #FF00BF; 
+	color: whitesmoke;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px 25px;
 }
