@@ -1,4 +1,4 @@
-/* text */
+/* Text */
 .uppercase{
 	text-transform: uppercase;
 }
@@ -13,7 +13,7 @@
 	margin-bottom: 0;
 }
 
-/* colors */
+/* Colors */
 .pink{
 	color: #FF00BF;
 }
@@ -37,7 +37,7 @@
 	height: 7rem;
 }
 
-/* links */
+/* Links */
 .link{
   font-weight: 300;
   padding: 24px 25px;

@@ -153,3 +153,60 @@ video {
 .box-information p{
 	margin-top: 1rem;
 }
+
+/* Video Section */
+#video.flex-container{
+	flex-direction: column;
+}
+
+#video .flex-container{
+	flex-direction: row;
+}
+
+#june.flex-container{
+	flex-direction: row-reverse;
+}
+
+.box-video{
+	height: 500px;
+}
+
+/* text container */
+.box-video .text-container{
+	margin: 1.5rem 1rem;
+	padding: 0 1.5rem;
+	flex: 0 0 30%; /* flex-grow: 0; flex-shrink:0; flex-basis: 30% */
+}
+
+.box-video .text-container h3{
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+
+.box-video .text-container p:first-child{
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: .5rem;
+}
+
+.box-video .text-container p:last-child{
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+/* video container */
+.box-video .video-container{
+	padding-left: 0;
+	padding-right: 0;
+	flex: 0 0 70%; /* flex-grow: 0; flex-shrink:0; flex-basis: 70% */
+}
+
+.video-container iframe{
+	border: none;
+	width: 100%;
+	height: 100%;
+}
