@@ -127,10 +127,14 @@ video {
 	padding-bottom: 30px;
 }
 
-.data-form label{
+.box-input{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.data-form .box-input label{
 	color: #bfc7d9;
 	position: absolute;
-	top: 330px;
 }
 
 .data-form .input-style{

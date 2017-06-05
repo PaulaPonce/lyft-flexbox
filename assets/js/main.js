@@ -35,3 +35,40 @@ function navScroll(){
     }    
 }
 navScroll();
+
+//Form
+var form = document.getElementById("form-container");
+
+//click event for phone input
+var inputPhone = document.getElementById("phone");
+inputPhone.addEventListener("click", addForm);
+
+function addForm(){
+	//name
+	var nameLabel = document.getElementById("name-lb");
+	var name = document.getElementById("name");
+	name.classList.remove("hidden");
+	nameLabel.classList.remove("hidden");
+	//email
+	var emailLabel = document.getElementById("email-lb");
+	var email = document.getElementById("email");
+	email.classList.remove("hidden");
+	emailLabel.classList.remove("hidden");
+	//city
+	var cityLabel = document.getElementById("city-lb");
+	var email = document.getElementById("city");
+	city.classList.remove("hidden");
+	cityLabel.classList.remove("hidden");
+	//drive button
+	var driveBtn = document.getElementById("drive");
+	driveBtn.addEventListener("click", submit);
+	function submit(){
+		name.classList.add("hidden");
+		email.classList.add("hidden");
+		city.classList.add("hidden");
+		nameLabel.classList.add("hidden");
+		emailLabel.classList.add("hidden");
+		cityLabel.classList.add("hidden");
+	}
+}
+

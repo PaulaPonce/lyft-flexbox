@@ -33,9 +33,23 @@
 					<h1>Turn Miles Into Money</h1>
 					<p>Sign Up to Drive with Lyft</p>
 				</div>
-				<form class="data-form">
-					<label for="phone" class="light-gray">Phone Number</label>
-					<input type="tel" name="phone" class="input-style">
+				<form id="form-container" class="data-form">
+					<div class="box-input">
+						<label for="phone" class="light-gray">Phone Number</label>
+						<input type="tel" name="phone" id="phone" class="input-style">
+					</div>
+					<div class="box-input">
+						<label for="name" id="name-lb" class="light-gray hidden">Name</label>
+						<input type="text" name="name" id="name" class="input-style hidden">
+					</div>
+					<div class="box-input">
+						<label for="email" id="email-lb" class="light-gray hidden">Email</label>
+						<input type="email" name="email" id="email" class="input-style hidden">
+					</div>
+					<div class="box-input">
+						<label for="city" id="city-lb" class="light-gray hidden">City</label>
+						<input type="text" name="city" id="city" class="input-style hidden">
+					</div>
 				</form>
 				<div id="sign" class="flex-container">
 					<button type="submit" id="drive">Become a Driver</button>
