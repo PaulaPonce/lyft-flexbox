@@ -12,8 +12,15 @@
 .mb-0{
 	margin-bottom: 0;
 }
+.p-0{
+	padding-left: 0;
+	padding-right: 0;
+}
 
 /* Colors */
+.white{
+	color: #f3f3f5;
+}
 .pink{
 	color: #FF00BF;
 }
@@ -50,6 +57,40 @@ a{
 
 a:hover{
   color: #FF00BF;
+}
+
+.social a:hover{
+	color: white;
+}
+
+/* List style*/
+.list{
+	list-style: none;
+}
+.inline{
+	display: inline-block;
+}
+
+/* Icons */
+.circle-icon{
+    background: transparent;
+    width: 1rem;
+    height: 1rem;
+    padding: .5rem;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* hr tag */
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
 }
 
 /* Flex container */

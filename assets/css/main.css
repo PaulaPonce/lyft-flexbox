@@ -124,7 +124,6 @@ video {
 
 /* Information Section*/
 #information.flex-container{
-	color: white;
 	padding: 50px 160px;
 	flex-direction: row;
 	justify-content: center;
@@ -209,4 +208,67 @@ video {
 	border: none;
 	width: 100%;
 	height: 100%;
+}
+
+/* Footer */
+#footer.flex-container{
+	background-color: #333447;
+	/*margin: 1.5rem -.9375rem;*/
+	padding: 1.5rem 4.9375rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* footer above */
+.footer-above.flex-container{
+	flex-direction: row;
+}
+
+.box-list{
+	padding: 1rem 1.5rem;
+}
+
+.box-image{
+	padding: 1rem 1.5rem;
+	margin-left: 15rem;
+}
+
+.list a{
+	font-weight: 300;
+}
+
+.list a h4{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.list a h4:hover{
+  color: #f3f3f5;
+  text-decoration: underline;
+}
+
+.list img{
+	justify-content: flex-end;
+}
+
+/* footer below */
+.footer-below{
+	text-align: center;
+}
+
+.box-list .list, .box-image .list, .social .list{
+	padding: 1rem;
+}
+
+.social i{
+	margin: 0 .5rem;
+}
+
+.inc{
+	margin-left: 10rem;
+	margin-right: 10rem;	
+}
+
+.inc .list{
+	padding: .5rem;
 }
