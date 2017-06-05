@@ -7,9 +7,49 @@ body{
 
 /* Header Section */
 
+/* hidden - scroll event */
+.nav-transparent{
+	background-color: transparent;
+}
+.nav-transparent a{
+	color: white;
+}
+.nav-transparent a:hover{
+	color: #FF00BF;
+}
+.nav-white{
+	background-color: white;
+	color: #333447;
+}
+
+.hidden{
+	visibility: hidden;
+	display: none;
+}
+
+#pink-logo{
+	top: 20px;
+	z-index: 1;
+	margin-right: auto;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.pink-button{
+	color: #FF00BF;
+	border: 1px solid #FF00BF;
+	border-radius: 10px;
+	padding: 10px 16px;
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+.btn-margin{
+	margin-right: 180px;
+}
+
 /* Navigation */
 #navigation{
-	background-color: transparent;
 	font-size: 18px;
 	position: fixed;
 	top: 0;
@@ -39,12 +79,11 @@ body{
 }
 
 /* log in button */
-.button{
+.white-button{
 	border: 1px solid whitesmoke;
 	border-radius: 10px;
 	padding: 10px 16px;
 	margin-left: 25px;
-	margin-right: 180px;
 }
 
 /* background video */
@@ -155,6 +194,7 @@ video {
 
 /* Video Section */
 #video.flex-container{
+	margin: 0;
 	flex-direction: column;
 }
 
@@ -201,7 +241,7 @@ video {
 .box-video .video-container{
 	padding-left: 0;
 	padding-right: 0;
-	flex: 0 0 70%; /* flex-grow: 0; flex-shrink:0; flex-basis: 70% */
+	flex: 0 0 64.1%; /* flex-grow: 0; flex-shrink:0; flex-basis: 70% */
 }
 
 .video-container iframe{
@@ -213,12 +253,14 @@ video {
 /* Footer */
 #footer.flex-container{
 	background-color: #333447;
-	/*margin: 1.5rem -.9375rem;*/
 	padding: 1.5rem 4.9375rem;
 	flex-direction: column;
 	align-items: center;
 }
 
+#footer a{
+	color: white;
+}
 /* footer above */
 .footer-above.flex-container{
 	flex-direction: row;

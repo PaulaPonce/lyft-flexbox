@@ -46,17 +46,16 @@
 
 /* Links */
 .link{
-  font-weight: 300;
-  padding: 24px 25px;
-  display: inline-block;
+	font-weight: 300;
+	padding: 24px 25px;
+	display: inline-block;
 }
 a{
-  color: whitesmoke;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover{
-  color: #FF00BF;
+	color: #FF00BF;
 }
 
 .social a:hover{
